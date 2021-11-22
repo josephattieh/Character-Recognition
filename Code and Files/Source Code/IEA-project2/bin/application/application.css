@@ -1,0 +1,40 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Palatino Linotype";
+    -fx-font-weight: bold;
+    -fx-background-color: CORNFLOWERBLUE;
+     -fx-border-radius: 20;
+      -fx-background-radius: 22;
+          -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+      
+    
+}
+.slider{
+	-fx-control-inner-background: CORNFLOWERBLUE;
+}
+
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill:CORNFLOWERBLUE;
+    -fx-border-color: CORNFLOWERBLUE;
+}
+
+.radio-button .dot {
+  -fx-mark-highlight-color: CORNFLOWERBLUE ;
+  -fx-mark-color: CORNFLOWERBLUE ;
+  -fx-text-fill: white;
+}
+
+
+.label{
+   -fx-text-fill: white; 
+}
+.choice-box .label {
+     -fx-text-fill: black; 
+}
+.root {
+ -fx-background-image: url("stars.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;}

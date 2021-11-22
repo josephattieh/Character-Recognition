@@ -1,0 +1,45 @@
+.button {
+    -fx-background-color: 
+        CORNFLOWERBLUE,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22);
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.01) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+
+.button:hover {
+    -fx-background-color:WHITE;
+    -fx-text-fill:BLACK;
+    -fx-border-color: CORNFLOWERBLUE;
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+
+.radio-button .dot {
+  -fx-mark-highlight-color: CORNFLOWERBLUE ;
+  -fx-mark-color: CORNFLOWERBLUE ;
+  -fx-text-fill: white;
+}
+
+
+.label{
+   -fx-text-fill: white; 
+}
+.choice-box .label {
+     -fx-text-fill: black; 
+}
+.root {
+	 -fx-background-image: url("black.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;}
+    

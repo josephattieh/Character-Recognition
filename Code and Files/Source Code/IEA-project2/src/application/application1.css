@@ -1,0 +1,13 @@
+
+.label{
+	-fx-alignment: center ;
+	   -fx-text-fill: white; 
+	    -fx-text-alignment: center;
+	-fx-font-weight: bold;
+}
+
+  .root {
+ -fx-background-image: url("blueshades.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 225 100;
+    -fx-background-position: center center;}
